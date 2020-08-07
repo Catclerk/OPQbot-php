@@ -1,0 +1,13 @@
+{
+    "name": "OPQBOT for PHP",
+    "description": "OPQBOT PHP版",
+    "require": {
+        "toohamster/ws-http": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Qbot\\Plugin\\": "src/plugin",
+            "Qbot\\Tool\\": "src/tool"
+        }
+    }
+}
